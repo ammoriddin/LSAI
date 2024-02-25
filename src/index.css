@@ -10,3 +10,18 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.hero-bg {
+  background-image: url('./assets/herobg.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.input > div > input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 17px;
+  color: rgb(62, 62, 62);
+}
