@@ -18,6 +18,13 @@
   background-size: cover;
 }
 
+.ccat-bg {
+  background-image: url('./assets/ccatbg.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
+}
+
 .input > div > input {
   border: none;
   background-color: transparent;
