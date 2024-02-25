@@ -13,7 +13,7 @@ export default function Navbar() {
                 <Link>Tutorial</Link>
             </li>
             <li>
-                <Link>Create Course & Test</Link>
+                <Link to={'/ccat'}>Create Course & Test</Link>
             </li>
             <li>
                 <Link>Docs</Link>
