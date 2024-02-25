@@ -29,7 +29,7 @@ export default function Singup() {
                     <Label htmlFor='password' className='mb-2 cursor-pointer text-[18px]'>Password</Label>
                     <TextInput type='password' id='password' name='password' placeholder='parolingizni kiriting' />
                 </div>
-                <Link to={'/login'} className='text-blue-700 font-[500] underline'>accountingiz bormi?</Link>
+                <Link to={'/login'} className='text-blue-700 font-[500] underline'>Accountingiz bormi?</Link>
             </form>
         </div>
     </section>
