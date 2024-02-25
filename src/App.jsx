@@ -1,17 +1,16 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './components/login/login';
 import Singup from './components/signup/singup';
-import HomePage from './containers/home/home';
+import Navbar from './containers/navbar/navbar';
 
 function App() {
   return (
     <Router>
-      <HomePage>
-        <Routes>
-          <Route path='/login' element={<Login />} />
-          <Route path='/signup' element={<Singup />} />
-        </Routes>
-      </HomePage>
+      <Navbar />
+      <Routes>
+        <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<Singup />} />
+      </Routes>
     </Router>
   )
 }
