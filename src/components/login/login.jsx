@@ -21,7 +21,7 @@ export default function Login() {
                 </div>
                 <div className='mb-4'>
                     <Label htmlFor='password' className='mb-2 cursor-pointer text-[18px]'>Password</Label>
-                    <TextInput id='password' name='password' placeholder='parolingizni kiriting' />
+                    <TextInput type='password' id='password' name='password' placeholder='parolingizni kiriting' />
                 </div>
                 <Link to={'/forgot-password'} className='text-blue-700 font-[500] underline'>Parolingizni unutdingizmi?</Link>
             </form>
