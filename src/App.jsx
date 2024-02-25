@@ -3,12 +3,14 @@ import Login from './components/login/login';
 import Signup from './components/signup/signup';
 import Navbar from './containers/navbar/navbar';
 import ForgotPassword from './components/forgotpassword/forgotpassword';
+import Home from './containers/home/main';
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Routes>
+        <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/forgot-password' element={<ForgotPassword />} />
