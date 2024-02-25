@@ -27,7 +27,7 @@ export default function Navbar() {
                 <Link to={'/login'} className='bg-gray-400 pt-[8px] text-white rounded-lg px-[15px] font-[500] pb-[10px] border-[2px] border-black border-solid'>Login</Link>
             </li>
             <li>
-                <Link to={'/signup'} className='bg-gray-400 pt-[8px] text-white rounded-lg px-[15px] font-[500] pb-[10px] border-[2px] border-black border-solid'>signup</Link>
+                <Link to={'/signup'} className='bg-gray-400 pt-[8px] text-white rounded-lg px-[15px] font-[500] pb-[10px] border-[2px] border-black border-solid'>Signup</Link>
             </li>
         </ul>
     </nav>
