@@ -11,7 +11,7 @@ export default function Singup() {
                 <div className='w-[300px] h-[100px]'>
                     <img className='w-full h-full object-cover' src={logo} alt="logo" />
                 </div>
-                <h1 className='font-[500] text-[35px]'>Singup</h1>
+                <h1 className='font-[500] text-[35px]'>Signup</h1>
             </div>
             
             <form>
