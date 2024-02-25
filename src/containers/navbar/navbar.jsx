@@ -10,16 +10,13 @@ export default function Navbar() {
         </Link>
         <ul className='flex gap-8 font-[500] text-[18px]'>
             <li>
-                <Link>Courses</Link>
-            </li>
-            <li>
                 <Link>Tutorial</Link>
             </li>
             <li>
-                <Link>Blog</Link>
+                <Link>Create Course & Test</Link>
             </li>
             <li>
-                <Link>Comunity</Link>
+                <Link>Docs</Link>
             </li>
         </ul>
         <ul className='flex gap-6'>
