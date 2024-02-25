@@ -16,7 +16,7 @@ export default function Navbar() {
                 <Link to={'/ccat'}>Create Course & Test</Link>
             </li>
             <li>
-                <Link>Docs</Link>
+                <Link to={'/docs'}>Docs</Link>
             </li>
         </ul>
         <ul className='flex gap-6'>

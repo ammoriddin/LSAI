@@ -5,6 +5,7 @@ import Navbar from './containers/navbar/navbar';
 import ForgotPassword from './components/forgotpassword/forgotpassword';
 import Home from './containers/home/main';
 import CCAT from './containers/ccat/main';
+import DocsPage from './containers/docs/main';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/signup' element={<Signup />} />
         <Route path='/forgot-password' element={<ForgotPassword />} />
         <Route path='/ccat' element={<CCAT />} />
+        <Route path='/docs' element={<DocsPage />} />
       </Routes>
     </Router>
   )
