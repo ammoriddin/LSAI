@@ -6,6 +6,7 @@ import ForgotPassword from './components/forgotpassword/forgotpassword';
 import Home from './containers/home/main';
 import CCAT from './containers/ccat/main';
 import DocsPage from './containers/docs/main';
+import Tdoc from './containers/tdoc/main';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/forgot-password' element={<ForgotPassword />} />
         <Route path='/ccat' element={<CCAT />} />
         <Route path='/docs' element={<DocsPage />} />
+        <Route path='/docs/user/:id/doc/:id' element={<Tdoc />} />
       </Routes>
     </Router>
   )
