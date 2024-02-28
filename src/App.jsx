@@ -11,7 +11,11 @@ import Tdoc from './containers/tdoc/main';
 function App() {
   return (
     <Router>
-      <Navbar />
+      <div className='h-[10vh] mb-[3rem]'>
+        <div className='w-full top-0 fixed bg-white z-[400000000000000] border-b-[1.5px]'>
+          <Navbar />
+        </div>
+      </div>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />

@@ -56,7 +56,3 @@ body, html {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
-.emoji {
-  z-index: 9000000000000000000000000000000000000;
-}

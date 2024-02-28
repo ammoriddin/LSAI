@@ -2,16 +2,17 @@ import React from 'react'
 import muscle from '../../assets/muscle.png'
 import lighting from '../../assets/lighting.png'
 import { Button, Label, TextInput, Textarea } from 'flowbite-react'
+import Card from '../card/card'
 
 export default function CcatPage() {
   return (
     <>
-        <div className='my-[40px] relative rounded-[20px] ccat-bg'>
-            <div className='w-[170px] absolute emoji top-[-7rem] left-[-7rem] rotate-[-20deg]'>
+        <div className='mb-[40px] mt-[7rem] relative rounded-[20px] ccat-bg'>
+            <div className='w-[170px] absolute top-[-7rem] left-[-7rem] rotate-[-20deg]'>
                 <img className='w-full' src={muscle} alt="" />
             </div> 
 
-            <div className='w-[130px] absolute emoji bottom-[-6rem] right-[-6rem]'>
+            <div className='w-[130px] absolute bottom-[-6rem] right-[-6rem]'>
                 <img className='w-full' src={lighting} alt="" />
             </div>
             <div className='w-full px-[35px] pb-[30px] pt-[33.5%] rounded-[20px] h-full flex flex-col justify-end bg-black/60'>
@@ -36,6 +37,8 @@ export default function CcatPage() {
                 </form>
             </div>
         </div>
+
+        <Card title={'Nodejs'} description={'lorem ipsum dolor sit 2010 1900 hello mello bu test'} id={54} />
     </>
   )
 }
