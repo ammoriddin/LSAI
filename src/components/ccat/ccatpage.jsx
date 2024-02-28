@@ -1,11 +1,19 @@
 import React from 'react'
-import searchIcon from '../../assets/search-icon.svg'
+import muscle from '../../assets/muscle.png'
+import lighting from '../../assets/lighting.png'
 import { Button, Label, TextInput, Textarea } from 'flowbite-react'
 
 export default function CcatPage() {
   return (
     <>
-        <div className='my-[40px] rounded-[20px] ccat-bg'>
+        <div className='my-[40px] relative rounded-[20px] ccat-bg'>
+            <div className='w-[170px] absolute emoji top-[-7rem] left-[-7rem] rotate-[-20deg]'>
+                <img className='w-full' src={muscle} alt="" />
+            </div> 
+
+            <div className='w-[130px] absolute emoji bottom-[-6rem] right-[-6rem]'>
+                <img className='w-full' src={lighting} alt="" />
+            </div>
             <div className='w-full px-[35px] pb-[30px] pt-[33.5%] rounded-[20px] h-full flex flex-col justify-end bg-black/60'>
                 <h1 className='text-white mb-4 font-[600] text-[40px] uppercase'>Create Course And Test</h1>
                 <p className='text-white mb-8 font-[300] text-[17px]'>Course haqida ma'lumot bering va biz uni sizga yaratib beramiz + <span className='font-[400]'>(testlari bilan)</span></p>
