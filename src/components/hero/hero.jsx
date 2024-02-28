@@ -11,7 +11,7 @@ export default function Hero() {
         <img className='w-full h-full' src={fire} alt="" />
       </div>
 
-      <div className='w-[300px] absolute bottom-[-10rem] rotate-[105deg] right-[-13.7rem]'>
+      <div className='w-[300px] absolute bottom-[-10.5rem] rotate-[105deg] right-[-13.7rem]'>
         <img className='w-full h-full' src={programmer} alt="" />
       </div>
 
