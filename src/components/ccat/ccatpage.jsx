@@ -9,7 +9,7 @@ export default function CcatPage() {
         <div className='my-[40px] relative rounded-[20px] ccat-bg'>
             <div className='w-[170px] absolute emoji top-[-7rem] left-[-7rem] rotate-[-20deg]'>
                 <img className='w-full' src={muscle} alt="" />
-            </div>
+            </div> 
 
             <div className='w-[130px] absolute emoji bottom-[-6rem] right-[-6rem]'>
                 <img className='w-full' src={lighting} alt="" />
