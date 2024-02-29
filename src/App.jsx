@@ -8,6 +8,7 @@ import CCAT from './containers/ccat/main';
 import DocsPage from './containers/docs/main';
 import Tdoc from './containers/tdoc/main';
 import Statistics from './containers/statistics/main';
+import QuizResultPage from './components/statistics/quiz-result-page.jsx'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='/docs' element={<DocsPage />} />
         <Route path='/docs/user/:id/doc/:id' element={<Tdoc />} />
         <Route path='/statistics' element={<Statistics />} />
+        <Route path='/statistics/user/:id/quiz/:id' element={<QuizResultPage />} />
       </Routes>
     </Router>
   )
