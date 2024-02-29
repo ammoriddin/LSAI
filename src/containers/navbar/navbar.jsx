@@ -27,7 +27,7 @@ export default function Navbar() {
                 <Link to={'/docs'}>Docs</Link>
             </li>
             <li>
-                <Link>Statistics</Link>
+                <Link to={'/statistics'}>Statistics</Link>
             </li>
         </ul>
         <ul className='flex gap-6'>
