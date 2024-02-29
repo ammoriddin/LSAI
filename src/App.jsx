@@ -7,6 +7,7 @@ import Home from './containers/home/main';
 import CCAT from './containers/ccat/main';
 import DocsPage from './containers/docs/main';
 import Tdoc from './containers/tdoc/main';
+import Statistics from './containers/statistics/main';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/ccat' element={<CCAT />} />
         <Route path='/docs' element={<DocsPage />} />
         <Route path='/docs/user/:id/doc/:id' element={<Tdoc />} />
+        <Route path='/statistics' element={<Statistics />} />
       </Routes>
     </Router>
   )
