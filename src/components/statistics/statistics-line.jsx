@@ -12,7 +12,7 @@ export default function StatisticsLine() {
     }
 
     return (
-        <div className='w-full border-b-[2px] border-gray-600 border-dashed pb-8'>
+        <div className='w-full mb-10 border-b-[2px] border-gray-600 border-dashed pb-8'>
             <p className='mb-4 text-[28px] font-[500]'>Yechilgan quizlar foizi:</p>
                 <div className='flex items-center gap-6'>
                     <span className='font-[500] text-[18px]'>Barchasi: </span>
