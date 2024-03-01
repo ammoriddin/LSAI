@@ -10,6 +10,7 @@ import Tdoc from './containers/tdoc/main';
 import Statistics from './containers/statistics/main';
 import QuizResultPage from './components/statistics/quiz-result-page.jsx'
 import QuizPage from './containers/quiz-page/main.jsx';
+import QuizPlay from './containers/play-quiz/main.jsx';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path='/statistics' element={<Statistics />} />
         <Route path='/statistics/user/:id/quiz/:id' element={<QuizResultPage />} />
         <Route path='/quiz' element={<QuizPage />} />
+        <Route path='/quiz/:id' element={<QuizPlay />} />
       </Routes>
     </Router>
   )
